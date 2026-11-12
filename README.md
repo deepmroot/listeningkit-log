@@ -1,6 +1,10 @@
 # log for Hermes
 
-Run your social conversations from Hermes. This plugin connects Hermes to [log by ListeningKit](https://github.com/matthewdonsemail-lab/log), an open-source tool that reads and sends from your own X, Discord, Slack, Instagram and Reddit accounts. LinkedIn sign-in status is available; LinkedIn conversation reads and sends are not built yet.
+![log by ListeningKit, in collaboration with Hermes Agent](docs/banner.jpg)
+
+Your agent, working your DMs the way you would.
+
+Every conversation you've ever had holds an opportunity: someone waiting on a reply, a follow-up you forgot, a lead that went quiet. This plugin gives Hermes [log by ListeningKit](https://github.com/matthewdonsemail-lab/log), an open-source tool that reads and sends from your own X, Discord, Slack, Instagram and Reddit accounts, in your own voice. LinkedIn sign-in status is available; LinkedIn conversation reads and sends are not built yet.
 
 Ask Hermes things like:
 
@@ -9,6 +13,16 @@ Ask Hermes things like:
 - "Follow up with everyone who opened my DM but didn't reply."
 
 Hermes reads freely. Every send, reply or post asks you first.
+
+![Hermes asks who is waiting for a reply, and log finds the X conversations waiting on you](docs/screenshots/xInbox.jpg)
+
+| Every platform you're on | Indexes every conversation |
+|---|---|
+| ![log's platform cards: Slack, Instagram and more, each in your own session](docs/screenshots/platforms.jpg) | ![Hermes reading Discord mentions and conversations through log](docs/screenshots/indexes.jpg) |
+
+![A draft in your own voice, checked before anything is sent](docs/screenshots/yourVoice.jpg)
+
+Watch the launch video: [log on X](https://x.com/matthewsoldit/status/2120938715820474690).
 
 ## What's inside
 
@@ -33,7 +47,7 @@ An Agent Plugins v1 package:
 2. Install and enable the plugin:
 
    ```bash
-   hermes plugins install deepmroot/listeningkit-log --no-enable
+   hermes plugins install listeningkit-log --no-enable
    hermes plugins enable listeningkit-log
    ```
 
